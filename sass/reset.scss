@@ -1,0 +1,62 @@
+//Font
+@font-face {
+  font-family: "CinzelDecorative";
+  src: url("../assets/font/CinzelDecorative-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "CinzelDecorative-Black";
+  src: url("../assets/font/CinzelDecorative-Black.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Amin Regular";
+  src: url("font/Amin Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Amiri&display=swap");
+
+// Reset
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 12px;
+
+  body {
+    font-family: "CinzelDecorative";
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  html {
+    font-size: 9px;
+  }
+}
+
+@media only screen and (max-width: 1376px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  html {
+    font-size: 7px;
+  }
+}
+
+.container {
+  background-color: transparent;
+  width: 100%;
+  max-width: 2000px;
+  margin: 0 auto;
+}
